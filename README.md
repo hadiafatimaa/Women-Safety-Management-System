@@ -6,26 +6,34 @@ A web-based women safety application built with **Java Servlets** (backend) and 
 
 ## Project Structure
 
-Women-Safety-Management-System/
-├── src/main/java/
-│   └── servlets/
-│       ├── Contact.java        # Emergency contacts
-│       ├── Incident.java       # Incident reporting
-│       ├── Login.java          # Authentication
-│       ├── Register.java       # User registration
-│       └── SOS.java            # SOS alert system
-├── src/main/webapp/
-│   ├── WEB-INF/
-│   │   └── web.xml             # Servlet configuration
-│   ├── index.html              # Landing page
-│   ├── dashboard.html          # User dashboard
-│   ├── SOS.html                # SOS page
-│   ├── Incident.html           # Report incident
-│   ├── contacts.html           # Emergency contacts
-│   └── pom.xml                 # Maven config
-├── .gitignore
-├── .gitattributes
-└── README.md
+WomenSafetySystem/
+├── src/main/
+│   ├── java/
+│   │   └── com.womensafety/
+│   │       ├── db/                     # Database connection
+│   │       ├── filehandler/
+│   │       │   ├── AppFile.java        # File handling
+│   │       │   ├── ChatHistory.java    # Chat history
+│   │       │   ├── JournalEntry.java   # Journal entries
+│   │       │   └── SosLog.java        # SOS logs
+│   │       └── servlets/
+│   │           ├── Contact.java        # Emergency contacts
+│   │           ├── Debug.java          # Debug servlet
+│   │           ├── GetSession.java     # Session handling
+│   │           ├── Incident.java       # Incident reporting
+│   │           ├── Journal.java        # Journal servlet
+│   │           ├── Login.java          # Authentication
+│   │           ├── Logout.java         # Logout
+│   │           ├── Register.java       # User registration
+│   │           ├── SOS.java            # SOS alert system
+│   │           ├── TestDB.java         # Database testing
+│   │           └── UpdateProfile.java  # Profile update
+│   ├── resources/                      # Config resources
+│   └── webapp/
+│       ├── WEB-INF/
+│       │   └── web.xml                 # Servlet configuration
+│       └── [HTML pages]                # Frontend pages
+└── pom.xml                             # Maven dependencies
 
 ## Prerequisites
 
