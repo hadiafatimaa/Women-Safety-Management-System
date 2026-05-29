@@ -1,5 +1,4 @@
 
-
 # Women Safety Management System
 
 A web-based women safety application built with **Java Servlets** (backend) and **HTML/CSS** (frontend) using MVC architecture and MySQL.
