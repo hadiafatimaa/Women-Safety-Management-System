@@ -83,7 +83,7 @@ http://localhost:8080/Women_Safety_Management_System/
 
 | Role | Email | Password |
 |------|-------|----------|
-| User | hadiafatima1947@gmail.com | •••• |
+| User | your email | •••• |
 
 ## Features
 
