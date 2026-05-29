@@ -3,8 +3,8 @@
 A web-based women safety application built with **Java Servlets** (backend) and **HTML/CSS/JavaScript** (frontend) using MVC architecture and MySQL.
 
 ## Project Structure
-WomenSafetySystem/
 '''
+WomenSafetySystem/
 ├── src/
 │   └── main/
 │       ├── java/
@@ -38,6 +38,7 @@ WomenSafetySystem/
 │           └── contacts.html
 └── pom.xml
 '''
+
 ## Prerequisites
 
 - Java 11+
