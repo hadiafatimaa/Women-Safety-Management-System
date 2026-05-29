@@ -4,6 +4,7 @@ A web-based women safety application built with **Java Servlets** (backend) and 
 
 ## Project Structure
 WomenSafetySystem/
+'''
 ├── src/
 │   └── main/
 │       ├── java/
@@ -36,6 +37,7 @@ WomenSafetySystem/
 │           ├── Incident.html
 │           └── contacts.html
 └── pom.xml
+'''
 ## Prerequisites
 
 - Java 11+
