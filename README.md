@@ -76,3 +76,34 @@ Deploy WAR to Apache Tomcat. Backend runs at:
 ## Step 4: Access the App
 
 Open browser and go to:
+
+http://localhost:8080/Women_Safety_Management_System/
+
+## Demo Login
+
+| Role | Email | Password |
+|------|-------|----------|
+| User | hadiafatima1947@gmail.com | •••• |
+
+## Features
+
+- User registration (Full Name, Email, Password, Phone Number)
+- User login and logout
+- SOS Alert — send emergency alert with live location
+- Report Incident — report a safety incident with location details
+- Emergency Contacts — manage your emergency contact list
+- My Profile — view and update profile information
+- Daily Journal — write daily safety thoughts and notes
+- Session management
+
+## Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Java Servlets (MVC)
+- **Database:** MySQL
+- **Build Tool:** Maven
+- **Server:** Apache Tomcat (SmartTomcat plugin)
+
+## Author
+
+Hadia Fatima
